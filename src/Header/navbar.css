@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin : 2% 11% 0 11%;
+}
+hr{
+    width: 88%;
+    height: 3px;
+    margin-top: 24px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    border: none;
+}
+
+div.navbar > * {
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    font: normal normal medium 18px/22px Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+}
