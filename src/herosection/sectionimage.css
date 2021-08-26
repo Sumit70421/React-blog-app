@@ -1,0 +1,44 @@
+.secContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    margin-top:62px ;
+    margin-left: 1%;
+}
+.secContainer > *{
+    display: inline-block;
+    position: relative;
+    width: 465px;
+    height: 295px;
+    background-image: url('./../imgs/sectionimg.jpg');
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mainText{
+    position: absolute;
+    top:133px;
+    left:13px;
+    font-size: 32px;
+    width:283px;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.subText{
+    position: absolute;
+    bottom: 55.6px;
+    left:13px;
+    font: normal normal medium 18px/22px;
+    color: #FCFCFC;
+    opacity: 55%;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}

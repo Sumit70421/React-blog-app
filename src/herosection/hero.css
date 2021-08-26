@@ -11,6 +11,7 @@
     border-radius: 7px;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 #mainText{
     position: absolute;
@@ -19,8 +20,7 @@
     height: 49px;
     top:379px;
     left:86px;
-    font: normal normal medium 40px/40px Montserrat;
-    
+    font: normal normal medium 40px/40px Montserrat; 
     font-weight: bolder;
     font-size: 40px;
     line-height: 40px;
