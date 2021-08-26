@@ -17,10 +17,12 @@ class sectionImage extends Component{
                  <div className="sectionUp">
                     <span className="mainText">{this.state.sectionUpText}</span>
                     <span className="subText">{this.state.UpSubtext}</span>
+                    <hr className="bottomLine"/>
                  </div>
                  <div className="sectionDown">
                  <span className="mainText">{this.state.sectionUpText}</span>
                  <span className="subText">{this.state.UpSubtext}</span>
+                    <hr className="bottomLine"/>
                  </div>   
             </div>
             

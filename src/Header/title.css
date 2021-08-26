@@ -3,14 +3,19 @@
     justify-content: center;
     font-size:32px;
     margin-top: -2%;
+    
+}
+div.Title > * {
+    text-decoration: none;
+    color: black;
 }
 #vertical{
     display: inline-block;
     transform: rotate(270deg);
     margin-right: 10px;
-    margin-top: 90px;
-    width: 39px;
-    
+    margin-top: 80px;
+    width: 11px;
+    text-decoration: none;
     height: 60px;
     font: normal normal medium 32px/39px Montserrat;
     font-family: 'Montserrat', sans-serif;
@@ -23,6 +28,6 @@
     letter-spacing: 0px;
     font: normal normal bold 71px/87px Montserrat;
     margin-top: 71px;
-    
+    text-decoration: none;
     text-align: left;
 }

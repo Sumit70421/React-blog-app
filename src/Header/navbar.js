@@ -18,7 +18,7 @@ class navbar extends Component{
         return(
             <>
             <div className="navbar">
-                <NavLink activeClassName="activeNav" to="/nav1">{this.state.nav1}</NavLink>
+                <NavLink activeClassName="activeNav" to="">{this.state.nav1}</NavLink>
                 <NavLink activeClassName="activeNav" to="/nav2">{this.state.nav2}</NavLink>
                 <NavLink activeClassName="activeNav" to="/nav3">{this.state.nav3}</NavLink>
                 <NavLink activeClassName="activeNav" to="/nav4">{this.state.nav4}</NavLink>

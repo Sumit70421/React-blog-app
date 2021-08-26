@@ -42,3 +42,10 @@
     line-height: 22px;
     font-weight: bold;
 }
+.bottomLine{
+    position: absolute;
+    bottom: 14px;
+    left:13px;
+    width: 40px;
+    color: #A3A1A1;
+}
