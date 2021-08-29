@@ -1,0 +1,15 @@
+#listHead{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+}
+#listLine{
+    background: #F08080 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 90px;
+    height: 3px;
+    margin-left: 0px;
+}
+.arList{
+    margin-left: 43px;
+}
