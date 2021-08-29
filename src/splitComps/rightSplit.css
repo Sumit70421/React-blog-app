@@ -1,0 +1,72 @@
+.rightSplit{
+    width: 390px;
+    margin-left: 38px;
+}
+.Advert{
+    display: flex;
+    border: 1px solid #707070;
+    align-items: center;
+    justify-content: center;
+    height: 819px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.topPost > h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+}
+.topPost >img {
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+}
+.topCard > h3{
+    width: 278px;
+    height: 67px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.cardHr{
+    width: 380px;
+    margin-left: 0px;
+    margin-top: 39px;
+}
+.lowerCards > img{
+    width: 101px;
+    height: 104px;
+}
+
+.lowerCards > h3{
+    display: inline-block;
+    width: 238px;
+    height: 67px;
+}
+.lowerCards{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.textCard{
+    margin-left: 26px;
+}
+.Number{
+    position: absolute;
+    right: 15px;
+    bottom: 19px;
+    width: 33px;
+    height: 89px;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+    font-size: 58px;
+}

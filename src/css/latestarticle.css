@@ -13,3 +13,6 @@
 .arList{
     margin-left: 43px;
 }
+.split{
+    display: flex;
+}

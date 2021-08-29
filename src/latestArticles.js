@@ -1,6 +1,7 @@
 import { Component } from "react";
 import './css/latestarticle.css'
 import ArticleList from "./splitComps/articleList";
+import RightSplit from "./splitComps/rightSplit";
 class LatestArticle extends Component{
     render() {
         return (
@@ -9,6 +10,7 @@ class LatestArticle extends Component{
                 <hr id="listLine" />
                 <div className="split">
                     <ArticleList />
+                    <RightSplit />
                 </div>
             </div>
         )
