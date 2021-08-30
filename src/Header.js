@@ -1,6 +1,6 @@
 import Title from './Header/title'
 import Navbar from './Header/navbar'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 const header = ()=>{
     return(

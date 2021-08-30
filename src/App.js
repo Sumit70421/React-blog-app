@@ -1,17 +1,21 @@
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './Header'
-import HeroSection from './herosection';
-import Latest from './latest';
-import LatestArticle from './latestArticles';
-import LatestStories from './latestStories';
+import Home from './home'
+import page2 from './splitComps/page2';
+
 
 function App() {
   return (
      <>
       <Header />
-      <HeroSection />
-      <Latest />
-      <LatestArticle />
-      <LatestStories />
+      <BrowserRouter>
+      <Switch>
+        <Route path="/nav2" component={page2} exact/>
+        <Route path="/" component={Home}/>
+      </Switch>
+      
+      </BrowserRouter>
+      
       </>
   );
 }
