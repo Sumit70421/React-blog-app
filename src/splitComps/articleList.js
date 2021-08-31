@@ -2,6 +2,7 @@ import { Component } from "react";
 import './articleList.css'
 import ItemImage from './../imgs/itemImage.jpg'
 import Arrow from './../imgs/arrow.svg'
+import { Link } from "react-router-dom";
 class ArticleList extends Component{
     constructor(){
         super()
@@ -38,6 +39,7 @@ class ArticleList extends Component{
             <div className="arItems">
                 <div className="listItem1">
                     <hr className="listHr" />
+                    <Link to="/blog">
                     <div className="Item" >
                         <img src={ItemImage} alt="img" style={{width:"308px",height:"263px"}}className="itemImage"/>
                         <div className="text">
@@ -76,7 +78,7 @@ class ArticleList extends Component{
                     <div className="loadMore">
                         <img src={Arrow} id="svg" alt="downArrow"/> LOAD MORE
                     </div>
-
+                    </Link>
                     <div className="masterImage">
                         <h2 >Title of vertical gallery</h2>
                         <p>Travel / August 2017</p>

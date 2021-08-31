@@ -94,3 +94,6 @@
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+}

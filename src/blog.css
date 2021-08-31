@@ -1,0 +1,54 @@
+.HeaderBlog{
+    width: 98vw;
+    height: 116px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: relative;
+}
+#HeadVert{
+    transform: rotate(270deg);
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: inline-block;
+    width: 36px;
+    height: 23px;
+    position: absolute;
+    top:43.73px;
+    left:223px;
+}
+#HeadHori{
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 44px;
+    line-height: px;
+    position: absolute;
+    top: 26.73px;
+    left: 264px;
+    font-weight: bolder;
+}
+#getStarted{
+    position: absolute;
+    right: 46px;
+    top: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #03A87C;
+    opacity: 1;
+    font-family:'Open Sans', sans-serif;;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #03A87C;
+    opacity: 1;
+    width: 137px;
+    height: 45px;
+    cursor: pointer;
+}
+

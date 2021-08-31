@@ -1,6 +1,7 @@
 import { useState } from "react";
 import cardImage from './imgs/cardImage.jpg'
 import './css/latest.css'
+import { Link } from "react-router-dom";
 
 const Latest = ()=>{
     
@@ -21,11 +22,12 @@ const Latest = ()=>{
             <h2>The Latest</h2>
             <hr className="latestHr" />
             <div className="cards">
+                
             <div className="card">
                     <img src={cardImage} alt="Traditional china"/>
                     <h3>{Card1Title}</h3>
                     <p>{Card1Des}</p>
-                    <span className="Type">{Card1Type}</span> <span className="date"> /{Card1Date}</span>
+                    <span className="Type">{Card1Type}</span> <span className="date"> /{Card1Date}</span>     
                 </div>
                 <div className="card">
                     <img src={cardImage} alt="Traditional china"/>  
@@ -39,6 +41,7 @@ const Latest = ()=>{
                     <p>{Card3Des}</p>
                     <span className="Type">{Card3Type}</span> <span className="date"> /{Card3Date}</span>
                 </div>
+                
             </div>
                 
         </div>                                                                                                                                                                                                                                

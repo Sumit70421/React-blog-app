@@ -24,3 +24,9 @@ div.navbar > * {
     font-weight: bolder;
     color: #000000;
 }
+
+.activeNav{
+    color: black;
+    font-size: 30px;
+}
+

@@ -1,14 +1,11 @@
-
-import Latest from '../latest'
-import LatestArticle from '../latestArticles';
 import ArticleList from './articleList';
 import './page2.css'
 import RightSplit from './rightSplit';
 
-const page2 =()=>{
+const page6 =()=>{
     return (
         <>
-            <div className="navHeads"><h2 className="navHead">Bollywood</h2>
+            <div className="navHeads"><h2 className="navHead">Food</h2>
             <hr className="latestHr" />
             </div>
             <div className="split">
@@ -19,4 +16,4 @@ const page2 =()=>{
     )
 }
 
-export default page2;
+export default page6;
