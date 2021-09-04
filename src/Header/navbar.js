@@ -11,7 +11,7 @@ class navbar extends Component{
             nav3: "Technology",
             nav4: "Hollywood" ,
             nav5: "Fitness",
-            nav6: "Food"
+            nav6: "Food" 
         }
     }
     render(){
