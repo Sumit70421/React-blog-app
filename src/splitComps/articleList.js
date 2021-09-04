@@ -40,7 +40,7 @@ class ArticleList extends Component{
                 <div className="listItem1">
                     <hr className="listHr" />
                     <Link to="/blog">
-                    <div className="Item" >
+                    <div className="Item col-xs-12" >
                         <img src={ItemImage} alt="img" style={{width:"308px",height:"263px"}}className="itemImage"/>
                         <div className="text">
                             <h2 id="firstItem">{this.state.card1.title}</h2>

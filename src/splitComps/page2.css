@@ -6,3 +6,12 @@
 .navHeads{
     margin-left: 40px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .rightSplit{
+        display: none;
+    }
+    .masterImage{
+        display: none;
+    }
+}

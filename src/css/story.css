@@ -46,3 +46,11 @@ opacity: 1;
     margin-left: 43px;
     cursor: pointer;
 }
+.bhr{
+    width:25px;
+    margin-top: 8px !important;
+}
+.bicon{
+    display: flex;
+    flex-direction: column;
+}

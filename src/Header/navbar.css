@@ -30,3 +30,9 @@ div.navbar > * {
     font-size: 30px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .navbar{
+        display: none;
+        display: noneADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD wDA   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwweawwwwwwwwwwwdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd;
+    }
+}

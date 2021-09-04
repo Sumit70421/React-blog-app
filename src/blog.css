@@ -41,7 +41,7 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #03A87C;
     opacity: 1;
-    font-family:'Open Sans', sans-serif;;
+    font-family:'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0px;
@@ -52,3 +52,146 @@
     cursor: pointer;
 }
 
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 677px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+}
+.Content>h3{
+    align-self: flex-start;
+    font-size: 40px;
+    line-height: 25px;
+    font-weight: normal;
+}
+.socials{
+    display: flex;
+    position: absolute;
+    right: 8px;
+    top: 139px;
+}
+.socials > svg{
+    color: #F2F2F2;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.User{
+    margin-left: -152px;
+    display: flex;
+}
+.userName{
+    align-self: center;
+    margin-left: 11px;
+    font-family:'Open Sans', sans-serif;
+}
+.date{
+    align-self: flex-end;
+    margin-left: 16px;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#coverPi{
+    margin-top: 33px;
+    width:677px;
+    height:370px;
+}
+#clap{
+    width: 40px;
+    height: 40px;
+}
+.tag{
+    width: 70px;
+    height: 33px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    color: #A2A2A2;
+    margin-right: 2%;
+}
+.tags{
+    margin-left: -429px;
+    margin-top: 27px;
+    display: block;
+}
+.likes{
+    display: inline;
+}
+.interactions{
+    display: flex;
+    margin-left: -492px;
+    margin-top: 4%;
+}
+.fixed{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 359px;
+    left: 108px;
+    letter-spacing: 0px;
+    color: #939393;
+    opacity: 1;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .HeaderBlog{
+        width: 171vw;
+    }
+    #HeadVert{
+        left:27px;
+    }
+    #HeadHori{
+        left:63px;
+    }
+    .Content{
+        margin-left:38px;
+        margin-right: 37px;
+    }
+    .fixed{
+        display: none;
+    }
+    #coverpi{
+        width: 302px ;
+        height: 166px ;
+    }
+    #blogText{
+        width: 515px;
+        height: 369px;
+        letter-spacing: 0px;
+        color: #272727;
+        opacity: 1;
+        font-size: 22px;
+        line-height: 38px;
+    
+    }
+    .Content>h3{
+        margin-top: 30px;
+    }
+    .socials{
+        position: absolute;
+        top: 77px;
+        left: -9px;
+        opacity: 1;
+    }
+    .socials>svg{
+        color: black;
+    }
+    .User{
+        margin-top: 20px;
+    }
+}

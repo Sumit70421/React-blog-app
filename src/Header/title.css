@@ -31,3 +31,90 @@ div.Title > * {
     text-decoration: none;
     text-align: left;
 }
+
+.bicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.titleRes{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .titleRes{
+        display: block;
+        width: 365vw;
+        height: 157px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+        position: relative;
+        font-size: 24px;
+    }
+    #HeadVert{
+        font-size: 53px;
+        top: 105.73px;
+    }
+    #HeadHori{
+        left: 85px;
+        font-size: 100px;
+    }
+    .Title{
+        display: none;
+    }
+    .bhr{
+        width: 55px;
+        margin-top: 5px !important;
+        color: black;
+        border: 1px solid lightblue;
+    }
+    .bicon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+        border: 2px solid black;
+        width: 95px;
+        position: absolute;
+        right: 85px;
+        top: 1px;
+    }
+    .Menu{
+        width: 359vw;
+        height: 772px;
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        top: 170px;
+        left: 34px;
+        z-index: 2;
+
+    }
+    .MenuItem{
+        width: 282px;
+        height: 42px;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-size: 58px;
+        align-self: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    
+}
+    .visible{
+        display: none;
+    }
+    #hamicon{
+        position: absolute;
+        top: 52px;
+        right: 94px;
+        width: 71px;
+        height: 71px;
+    
+    }
+}

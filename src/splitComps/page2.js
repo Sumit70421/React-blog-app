@@ -1,6 +1,4 @@
 
-import Latest from '../latest'
-import LatestArticle from '../latestArticles';
 import ArticleList from './articleList';
 import './page2.css'
 import RightSplit from './rightSplit';
