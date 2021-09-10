@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Blog from './blog';
-import Header from './Header'
 import Home from './home'
 import RenderHead from './renderHeader';
 import page2 from './splitComps/page2';
