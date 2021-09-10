@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './hero.css'
+import axios from 'axios'
 class heroImage extends Component{
     constructor(){
         super();
@@ -15,6 +16,18 @@ class heroImage extends Component{
                 <span id= "subText">{this.state.subText}</span>
             </div>
         )
+    }
+    componentDidMount(){
+        axios.get("http://localhost:2999/title")
+        .then((response)=>{
+            console.log(response)
+            this.setState({
+                mainText : response.data.heroImageTitle
+            })
+        })
+        .catch((error)=>{
+            console.log(error)
+        })
     }
 }
 
